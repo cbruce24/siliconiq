@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated data (rebuilt automatically on first run)
+data/*.db
+data/*.db-*
+exports/
+
+# Local tooling and backups
+.claude/
+.agents/
+.backup/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+.vscode/
+.idea/
+
+# Private portfolio notes (kept local)
+docs/portfolio_brief.md

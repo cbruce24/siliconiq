@@ -1,0 +1,74 @@
+# SiliconIQ theme: restrained neutrals, one action color (blue), light and dark modes.
+# Vendor colors (NVIDIA #76B900, AMD #ED1C24) are applied per chart in siliconiq/ui.py.
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["32px", "22px", "18px", "16px", "15px", "14px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+metricValueFontSize = "1.9rem"
+metricValueFontWeight = 700
+baseRadius = "8px"
+buttonRadius = "8px"
+showWidgetBorder = true
+showSidebarBorder = true
+linkUnderline = false
+paddingTop = "2.5rem"
+paddingBottom = "3rem"
+
+[theme.light]
+primaryColor = "#2563EB"
+linkColor = "#1D4ED8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F7FA"
+codeBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+grayColor = "#475569"
+blueColor = "#2563EB"
+greenColor = "#15803D"
+redColor = "#DC2626"
+yellowColor = "#CA8A04"
+orangeColor = "#C2410C"
+violetColor = "#7C3AED"
+chartCategoricalColors = ["#2563EB", "#64748B", "#0D9488", "#CA8A04", "#7C3AED", "#DB2777", "#0891B2"]
+dataframeBorderColor = "#E2E8F0"
+dataframeHeaderBackgroundColor = "#F5F7FA"
+
+[theme.dark]
+primaryColor = "#3B82F6"
+linkColor = "#93C5FD"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#141B2D"
+codeBackgroundColor = "#1E293B"
+textColor = "#F1F5F9"
+borderColor = "#263247"
+grayColor = "#A3B1C6"
+blueColor = "#60A5FA"
+greenColor = "#4ADE80"
+redColor = "#F87171"
+yellowColor = "#FACC15"
+orangeColor = "#FB923C"
+violetColor = "#A78BFA"
+chartCategoricalColors = ["#60A5FA", "#94A3B8", "#2DD4BF", "#FACC15", "#A78BFA", "#F472B6", "#22D3EE"]
+dataframeBorderColor = "#263247"
+dataframeHeaderBackgroundColor = "#141B2D"
+dataframeHeaderTextColor = "#F1F5F9"
+
+[theme.light.sidebar]
+backgroundColor = "#F5F7FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+borderColor = "#E2E8F0"
+
+[theme.dark.sidebar]
+backgroundColor = "#080D19"
+secondaryBackgroundColor = "#141B2D"
+textColor = "#F1F5F9"
+borderColor = "#263247"
