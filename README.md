@@ -78,8 +78,8 @@ Selections carry between steps. Inputs persist for the whole session.
 Requires **Python 3.11+**.
 
 ```bash
-git clone <this-repo-url>
-cd siliconIQ
+git clone https://github.com/cbruce24/siliconiq.git
+cd siliconiq
 pip install -r requirements.txt
 streamlit run app.py
 ```
