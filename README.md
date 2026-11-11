@@ -2,6 +2,10 @@
 
 **Compare AI accelerators, choose one for your priorities, and test whether a deployment pays off.**
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://siliconiq.streamlit.app/)
+
+**Live demo:** https://siliconiq.streamlit.app/
+
 SiliconIQ is a Streamlit analytics app that combines SEC 10-K financials, official
 accelerator spec sheets, and MLPerf benchmark results for NVIDIA and AMD data-center
 GPUs. It guides you through a three-step decision workflow and labels every number as
